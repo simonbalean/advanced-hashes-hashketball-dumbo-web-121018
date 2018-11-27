@@ -197,7 +197,7 @@ def most_points_scored
     brief[:players].each do |players, info|
       if info[:points] > new_points
         new_points = info[:points]
-        new_players = info[:players]
+        new_players = players
       end
     end
   end
