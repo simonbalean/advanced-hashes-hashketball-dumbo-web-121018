@@ -191,12 +191,12 @@ end
 ############# Bonus
 
 def most_points_scored
+  new_points = 0
   game_hash.collect do |location, brief|
-    new_points = 0
     brief[:players].each do |players, info|
-    if info[:points] > new_points
-      new_points = info[:points]
-    end
+      if info[:points] > new_points
+        new_points = info[:points]
+      end
     end
   end
   new_points
