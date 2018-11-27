@@ -194,8 +194,7 @@ def most_points_scored
   game_hash.collect do |location, brief|
     new_points = 0
     brief[:players].each do |players, points|
-      points.max_by do 
-end
+    binding.pry
 
 def winning_team
 end
