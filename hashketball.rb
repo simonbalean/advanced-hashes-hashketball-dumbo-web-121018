@@ -201,7 +201,7 @@ def most_points_scored
       end
     end
   end
-  players
+  new_players
 end
 
 def winning_team
