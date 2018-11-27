@@ -195,6 +195,9 @@ def most_points_scored
     new_points = 0
     brief[:players].each do |players, points|
     binding.pry
+    end
+  end
+end
 
 def winning_team
 end
